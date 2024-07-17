@@ -52,6 +52,5 @@ The summary will be printed to the console.
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________
 
-![Reviews](https://github.com/AryanGithub000/AI_Summarizer/assets/103366393/12f24ec4-7345-44c4-8f5c-2dd4bcae588e)
 ![Reviews](https://github.com/AryanGithub000/G-Maps_Reviews_Summarizer/blob/main/Reviews_2.png)
 
