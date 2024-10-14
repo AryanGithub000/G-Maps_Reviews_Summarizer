@@ -1,5 +1,6 @@
 # Import Gemini library
 import google.generativeai as genai
+import asyncio
 
 # Import API key from config.py (assuming 'API_KEY' is defined there)
 from config import API_KEY
@@ -66,7 +67,7 @@ def summarize(reviews, model):
 if __name__ == "__main__":
     url = input("Enter a URL to scrape reviews: ")
 
-    reviews = asyncio.get_event_loop().run_until_complete(scrape_reviews(url))
+    reviews = asyncio.run(scrape_reviews(url))
 
     if reviews:
         result = summarize(reviews, model)
